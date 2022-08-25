@@ -61,9 +61,6 @@ When a component unmounts, it will still be rendered in the DOM until its leavin
 ### <TransitionGroup>
 
 The `<TransitionGroup>` keeps track of the elements are passed to it through its `children` prop. The direct children of a `<TransitionGroup>` should be `<Transition>`/`<CSSTransition>` components. These transition components need to be given `key` props to uniquely identify them.
-
-
-
 In its state, the `<TransitionGroup>` maintains a list of all of its children. Whenever the `<TransitionGroup>` updates, it compares the keys of its new `children` prop to the ones stored in state. Doing this, it creates two arrays: one which contains entering elements (their key was not in the existing element list) and one which contains leaving elements (their key was not in the new `children` elements).
 
 ```jsx
@@ -77,17 +74,16 @@ const AnimatedComponent = () => (
     </CSSTransition>
   </TransitionGroup>
 )
-// knownKeys = ['one', 'two']
-// updateKeys = ['one', 'three']
-// enteringKeys = ['three']
-// leavingKeys = ['two']
+ knownKeys = ['one', 'two']
+ updateKeys = ['one', 'three']
+ enteringKeys = ['three']
+ leavingKeys = ['two']
 ```
 
 ```jsx
 const AnimatedComponent = () => (
   <TransitionGroup
-    classNames="example"
-  >
+    classNames="example">
     <CSSTransition key="one">
       <Item>One</Item>
     </CSSTransition>
