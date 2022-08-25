@@ -69,23 +69,6 @@ import gql from 'graphql-tag';
 `gql` is a [tagged template literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates) used to define GraphQL queries. These will be parsed into a GraphQL AST. `gql` templates can be inserted into other `gql` templates.
 
 
-### `react-apollo`
-
-#### <ApolloProvider>
-
-This component is required to make nested components Apollo-aware.
-
-```jsx
-import { ApolloProvider } from 'react-apollo';
-
-const client = new ApolloClient({...});
-
-ReactDOM.render((
-  <ApolloProvider client={client}>
-    <App />
-  </ApolloProvider>
-), holder);
-```
 
 #### <Query>
 
