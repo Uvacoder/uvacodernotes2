@@ -1,0 +1,5 @@
+{
+  "redux": "Redux",
+  "react-redux": "React Redux",
+  "redux-middleware": "Redux Middleware"
+}
