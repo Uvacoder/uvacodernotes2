@@ -4,6 +4,7 @@
   "styling": "Styling",
   "frameworks": "Frameworks",
   "react": "React",
+  "redux": "Redux",
   "typescript": "Typescript",
   "libraries": "Libraries",
   "graphql": "Graphql",
