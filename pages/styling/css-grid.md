@@ -1,7 +1,7 @@
 # Grid
 
-* https://css-tricks.com/snippets/css/complete-guide-grid/
-* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+[Complete guide for grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+[Basic_Concepts_of_Grid_Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 
 Grid is a two dimensional layout system (as opposed to flexbox being one dimensional).
 
