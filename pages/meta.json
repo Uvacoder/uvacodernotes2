@@ -2,6 +2,7 @@
   "index": "Introduction",
   "commit": "Commit Message",
   "styling": "Styling",
+  "frameworks": "Frameworks",
   "react": "React",
   "libraries": "Libraries",
   "extension": "VSCode Extensions"
