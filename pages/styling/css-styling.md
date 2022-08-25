@@ -1,14 +1,3 @@
----
-title: "Positioning Elements & Scrollytelling in CSS"
-description: "Notes on how to use the position property in CSS to make scrollytelling stories"
-updated: "2022-07-10"
-startDate: "2020-12-26"
-type: "note"
-toc: true
-topics: ["The Web", "CSS", "Web Development"]
-growthStage: "budding"
----
-
 Notes (mostly to myself) on how the CSS <b>position</b> property works because I <i>constantly</i> forget. Specifically in relation to building [scrollytelling](https://medium.com/nightingale/from-storytelling-to-scrollytelling-a-short-introduction-and-beyond-fbda32066964) pieces.
 
 Having control over where elements are positioned on a webpage is essential for building scrollytelling stories. We have to understand exactly how elements will behave within the layout, especially in relation to the scrollbar and viewport.
