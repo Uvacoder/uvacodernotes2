@@ -4,9 +4,9 @@
 
 ## Operation Types:
 
-* [`query`](#query)
-* [`mutation`](#mutation)
-* [`subscription`](#subscription)
+[`query`](#query)
+[`mutation`](#mutation)
+[`subscription`](#subscription)
 
 ## Schemas
 
