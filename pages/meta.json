@@ -4,6 +4,7 @@
   "styling": "Styling",
   "frameworks": "Frameworks",
   "react": "React",
+  "typescript": "Typescript",
   "libraries": "Libraries",
   "extension": "VSCode Extensions"
 }
