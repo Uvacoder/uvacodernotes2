@@ -4,7 +4,9 @@
 
 [abc-notes2](https://github.com/Uvacoder/abc-notes2)
 
-https://github.com/d-tasevski/CompSci
+- https://github.com/d-tasevski/CompSci
+
+- https://github.com/Uvacoder/dev-notes
 
 My documentation about practices on development.
 
