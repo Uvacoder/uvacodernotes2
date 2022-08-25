@@ -1,12 +1,12 @@
 export default {
-  github: 'https://github.com/theodorusclarence',
-  docsRepositoryBase: 'https://github.com/theodorusclarence/docs/blob/master',
-  titleSuffix: ' - docs.thcl.dev',
+  github: 'https://github.com/uvacoder',
+  docsRepositoryBase: 'https://github.com/uvacoder/abc-notesndocs/blob/master',
+  titleSuffix: ' - abc-notesndocs',
   logo: (
     <>
       <span className="hidden mr-2 font-extrabold md:inline">DOCS</span>
       <span className="hidden font-normal text-gray-600 md:inline">
-        Theodorus Clarence's Documentation
+        uvacoder Documentation
       </span>
     </>
   ),
@@ -18,7 +18,7 @@ export default {
       <meta httpEquiv="Content-Language" content="en" />
       <meta
         name="description"
-        content="Theodorus Clarence’s documentation about practices on development"
+        content="uvacoder's documentation about practices on development"
       />
       <meta
         name="og:description"
@@ -82,11 +82,11 @@ export default {
     <>
       © {new Date().getFullYear()}{' '}
       <a
-        href="https://theodorusclarence.com?ref=docs"
+        href="https://github.com/uvacoder/abc-notendocs?ref=docs"
         target="_blank"
         rel="noopener"
       >
-        Theodorus Clarence
+        uvacoder
       </a>
       .
     </>
