@@ -6,5 +6,6 @@
   "react": "React",
   "typescript": "Typescript",
   "libraries": "Libraries",
+  "graphql": "Graphql",
   "extension": "VSCode Extensions"
 }
