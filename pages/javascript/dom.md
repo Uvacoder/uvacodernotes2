@@ -113,4 +113,4 @@ parent.replaceChild(newOne, child);
 ![animationcss](.imgs/animationcss.png)
 
 > `setInterval(handler, ms, args?)` will call `handler` with parameters `args` every `ms` milliseconds.<br>
-> `clearInterval(obj)` will stop the shit idk what object type it returns because JAVASCRIPT is so goddamn confusing <3
+> `clearInterval(obj)` will stop the shit idk what object type it returns because JAVASCRIPT is so goddamn confusing 
