@@ -71,8 +71,6 @@ new values for the <input> attribute type and the new <output> element.
  <input type="email" value="supportEmail">
  ```
  In the above code if the input does not match email formatting then it will apply invalid style
-- 
-- valid
 
 
 ### MATH ML
@@ -81,8 +79,6 @@ Currently chrome does not support MATH ML by default, Need a polifill library.
 MATH JAX one of the polifill which enables math formulas to be rendererd on browser 
 [Samples](https://www.mathjax.org/#samples)
 
-
-[ In funtoot we use MATHQUIL libarary for MATH ML support ]
 
 ### Connectivity 
 `Web socket`
