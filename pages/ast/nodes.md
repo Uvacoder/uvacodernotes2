@@ -424,7 +424,6 @@ new Thing(arg1, arg2)
 
 * method - true if if `key()` format
 * shorthand - true if in `{ key }` format
-* computed - true if in `{ [key]: ... }` format
 * key - an `Identifier`
 * value - a `Literal`, pattern, or expression
 * kind - "init"??
