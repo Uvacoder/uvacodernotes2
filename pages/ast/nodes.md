@@ -1,6 +1,5 @@
 # Big List of AST Node Types
 
-These are Acorn node types, since that is what Rollup uses.
 
 ## Types
 
