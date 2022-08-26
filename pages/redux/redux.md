@@ -2,19 +2,19 @@
 
 Source code on [GitHub](https://github.com/reactjs/redux), documentation at [http://redux.js.org/](http://redux.js.org/).
 
-* [Overview](#overview)
-* [Installation](#installation)
-* [Actions](#actions)
-* [Reducers](#reducers)
-  * [Splitting Reducers](#splitting-reducers)
-  * [Combining Reducers](#combining-reducers)
-* [Store](#store)
-  * [`createStore`](#createstorereducer-initialstate-enhancer)
-  * [`subscribe`](#storesubscribecallback)
-  * [`dispatch`](#storedispatchaction)
-* [Enhancers](#enhancers)
-  * [Middleware](#middleware)
-* [Example](#example)
+[Overview](#overview)
+ [Installation](#installation)
+ [Actions](#actions)
+ [Reducers](#reducers)
+   [Splitting Reducers](#splitting-reducers)
+   [Combining Reducers](#combining-reducers)
+  [Store](#store)
+   [`createStore`](#createstorereducer-initialstate-enhancer)
+   [`subscribe`](#storesubscribecallback)
+   [`dispatch`](#storedispatchaction)
+ [Enhancers](#enhancers)
+   [Middleware](#middleware)
+ [Example](#example)
 
 ## Overview
 
