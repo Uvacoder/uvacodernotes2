@@ -1,6 +1,6 @@
 # Redux
 
-Source code on [GitHub](https://github.com/reactjs/redux), documentation at [http://redux.js.org/](http://redux.js.org/).
+Source code on [GitHub](https://github.com/reactjs/redux), documentation at [Redux.js](http://redux.js.org/).
 
 [Overview](#overview)
  [Installation](#installation)
