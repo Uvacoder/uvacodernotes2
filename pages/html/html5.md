@@ -57,7 +57,7 @@ new values for the <input> attribute type and the new <output> element.
 - pattern [validateing a input field agains regular expressions]
 - min and max [ Input field length]
 - step attribute [ Incremental value upon clicking arrow in input type number]
-- srcdoc and sandbox [ These added as new attributes for iframe to set the level of security of iframe, for more details click https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-sandbox[here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-sandbox "here") ]
+- srcdoc and sandbox [ These added as new attributes for iframe to set the level of security of iframe, for more details click [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-sandbox)
 `Psudoclass`
 - invalid 
  this will let you apply a specific style to invalid input against the format of the element.
