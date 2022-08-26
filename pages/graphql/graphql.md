@@ -212,7 +212,7 @@ input DogInput {
 
 Useful for exploring the GraphQL structure.
 
-http://graphql.org/learn/introspection/
+[Learn - Introspection](http://graphql.org/learn/introspection/)
 
 
 ## Query
