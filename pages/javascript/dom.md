@@ -48,7 +48,7 @@ document.getElementsByTagName("p");
 
 |Property|description|<sub><sup>Using the same example above</sup></sub>|
 |-|-|-|
-|`innerHTML`|<sub><sup>gets the absolute HTML text inside the element including line breaks and tags|`document.getElementById("div1").innerHTML;`<br> <sub>`"\n            <p class=\"prg\">This is paragraph1</p>\n            <p class=\"prg\">This is paragraph2</p>\n   `</sub>|
+|`innerHTML`|<sub><sup>gets the absolute HTML text inside the element including line breaks and tags|`document.getElementById("div1").innerHTML;`<br> <sub>`"\n            <p class=\"prg\">This is paragraph1</p>\n`</sub>|
 |`innerText`|<sub><sup>gets the inner text trimmed|`document.getElementById("div1").innerText;`<br><sub>`"This is paragraph1\n\nThis is paragraph2"`</sub>|
 |`children`|<sub><sup>returns an array of the child nodes|`document.getElementById("div1").children`<br><sub>`HTMLCollection { 0: p.prg, 1: p.prg, length: 2 }`</sub>|
 |`parentNode`||`document.getElementById("div1").parentNode`<br><sub>`<body>`|
