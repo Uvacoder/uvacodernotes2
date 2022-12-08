@@ -593,7 +593,7 @@ let myPromise = new Promise(function(resolve, reject){
     reject();  // when error
 });
 
-// "consuming code" (must wait for a fulfilled Promise)
+
 myPromise.then(
     function(value){ /*code if successful*/},
     function(error){ /*code if error*/}
