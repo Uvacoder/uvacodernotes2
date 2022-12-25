@@ -45,8 +45,8 @@ the `addEventListener()` method connects an event handler to an element without 
 ```javascript
 element.addEventListener(event, func, useCapture);
 ```
-**`event`** param is a string of which event. If you want to handle an `onclick` event, you use `"click"` arguement.<br>
-**`func`** is the function we want to call when the event occurs.<br>
+**`event`** param is a string of which event. If you want to handle an `onclick` event, you use `"click"` arguement.
+**`func`** is the function we want to call when the event occurs.
 **`useCapture`** is a boolean specifying whether to use event **bubbling** or event **capturing**. but this parameter is optional.
 
 ```javascript
@@ -102,8 +102,8 @@ In **bubbling**, the innermost element's event is handled first, and then the ou
 In **capturing**, it's the opposite.
 `<div>.onclick` and then `<p>.onclick`.
 
-> Capturing goes **down** the DOM. 
-> Bubbling goes **up** the DOM.
+ Capturing goes **down** the DOM. 
+ Bubbling goes **up** the DOM.
 
 Say for example we have this code:
 ![image](.imgs/eventpropa_code.png)
@@ -116,8 +116,8 @@ but if i set the 3rd parameter of **both** event listeners to **true**, then it 
 ![image](.imgs/eventpropa_res2.png)
 `outerbox.onclick` is called first before `innerbox.onclick`
 
-> The default event propagation is **bubbling**
-> Set both propagation to be equal to prevent confusion.
+ The default event propagation is **bubbling**
+ Set both propagation to be equal to prevent confusion.
 
 ---
 ## Exercise: Image Slider
@@ -196,4 +196,4 @@ function validate() {
 |-|-|-|
 |**initial**: a GET request is submitted<br>|onSubmit with unequal values:<br>**no http request is made** and <br><sub><sup>`console.log("passwords don't match")`</sub></sub>|equal values were submitted so<br>a POST request was sent thus:<br> <sub><sup>`echo "post"`</sup></sub>|
 
-> `<form>.onsubmit` is used to check whether to submit or not. If it returns true, then it submits. Otherwise, no. 
+ `<form>.onsubmit` is used to check whether to submit or not. If it returns true, then it submits. Otherwise, no. 
