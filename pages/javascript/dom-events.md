@@ -13,7 +13,7 @@
 |`onblur`|occurs when an element **loses focus**|
 |`onfocus`|occurs when an element **gets focus**|
 
-corresponding events can be added to HTML elements as attributes like: <br>
+corresponding events can be added to HTML elements as attributes like: 
 ```html
 <p onclick="someFunc()">Some text</p>
 <script>
