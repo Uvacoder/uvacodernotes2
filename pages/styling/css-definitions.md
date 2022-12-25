@@ -1,6 +1,6 @@
 # **CSS Definitions**
 ---
-## *Definitions w/Examples*
+## *Definitions with Examples*
 ---
 #### In order to select specific items you must use the tag from html to identify what CSS will do
 ###### *CSS*
