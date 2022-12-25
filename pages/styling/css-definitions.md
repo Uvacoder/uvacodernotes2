@@ -184,7 +184,7 @@ p:last-child
 ```
 
 ---
-See video on CSS "Styling the Front-End": https://youtu.be/-k-1TU8qq0Q?t=9
+See video on CSS "Styling the Front-End": [video](https://youtu.be/-k-1TU8qq0Q?t=9)
 
 ---
 # CSS Udemy Notes
