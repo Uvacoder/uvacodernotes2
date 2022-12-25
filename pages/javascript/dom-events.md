@@ -102,7 +102,7 @@ In **bubbling**, the innermost element's event is handled first, and then the ou
 In **capturing**, it's the opposite.
 `<div>.onclick` and then `<p>.onclick`.
 
-> Capturing goes **down** the DOM. <br>
+> Capturing goes **down** the DOM. 
 > Bubbling goes **up** the DOM.
 
 Say for example we have this code:
@@ -116,7 +116,7 @@ but if i set the 3rd parameter of **both** event listeners to **true**, then it 
 ![image](.imgs/eventpropa_res2.png)
 `outerbox.onclick` is called first before `innerbox.onclick`
 
-> The default event propagation is **bubbling**<br>
+> The default event propagation is **bubbling**
 > Set both propagation to be equal to prevent confusion.
 
 ---
@@ -131,7 +131,7 @@ Image slider page with **prev** and **next** buttons.
 ```html
 <div id="imageSlider" style="text-align:center">
 	<img id="imageViewer" src="asset/img1.png" 
-	width="100px" height="100px"/><br>
+	width="100px" height="100px"/>
 	<button id="prev"> Prev </button>
 	<button id="next"> Next </button>
 </div>
@@ -170,8 +170,8 @@ nextbtn.addEventListener("click", function () {
 
 ```html
 <form onsubmit="return validate()" method="post">
-	password: <input type="password" name="num1" id="num1"/> <br>
-	confirm : <input type="password" name="num2" id="num2"/> <br>
+	password: <input type="password" name="num1" id="num1"/> 
+	confirm : <input type="password" name="num2" id="num2"/> 
 	<button type="submit">Submit</button>
 </form>
 
